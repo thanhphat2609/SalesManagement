@@ -1,4 +1,4 @@
-# International Language School with Hadoop
+# Sales Management with Hadoop
 
 ## Description
 
