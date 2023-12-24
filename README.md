@@ -47,7 +47,7 @@ hdfs dfs -chmod g+w /user/hive/warehouse
 5. Step run:
 
 ```
-spark-submit --jars ./Driver/mysql-connector-j-8.1.0 Ingestion.py "ExecutionDate" "tblName"
+spark-submit --jars ./Driver/mysql-connector-j-8.1.0.jar Ingestion.py "ExecutionDate" "tblName"
 spark-submit Transformation.py "ExecutionDate"
 ```
 
