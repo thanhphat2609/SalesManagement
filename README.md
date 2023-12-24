@@ -51,9 +51,9 @@ spark-submit --jars ./Driver/mysql-connector-j-8.1.0.jar Ingestion.py "Execution
 spark-submit Transformation.py "ExecutionDate"
 ```
 
-6. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
+6. Open your browser (Firefox) and go to http://localhost:9870 to interact with HDFS.
 
-7. Go to http://localhost:8080 to interact with the Superset
+7. Go to http://localhost:8080 to interact with Superset.
 
 8. Run and connect Apache Hive.
 
