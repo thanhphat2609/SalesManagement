@@ -55,7 +55,7 @@ spark-submit Transformation.py "ExecutionDate"
 
 7. Go to http://localhost:8080 to interact with the Superset
 
-8. Run and connect Apache Hive
+8. Run and connect Apache Hive.
 
 ``` bash
 ./hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console --hiveconf hive.server2.enable.doAs=false
