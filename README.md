@@ -2,57 +2,63 @@
 
 ## Description
 
-This is a simple analysis project using technologies such as MySQL, HDFS, Apache Spark, Apache Hive, and Apache Superset.
+This is a simple analysis project using technologies such as MySQL, HDFS, Apache Spark, Apache Hive, and Apache Superset for analyst SalesMangement database.
 
 
 ## Architecture 
 
-
+![Architecture](https://github.com/thanhphatuit/SalesManagement/assets/84914537/c586914c-e210-4632-9ca8-566ef86dbfd5)
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/thanhphatuit/InternationalLanguageSchool.git
-cd Code
+```
+https://github.com/thanhphatuit/SalesManagement.git
+cd Source
 ```
 
 2. Start Hadoop:
 
-```bash
+```
 hdfs namenode -format
 start-all.sh
 ```
 
-3. Create directory:
+3. Work with MySQL:
 
 ```
-hdfs dfs -mkdir -p /user/thanhphat/datalake
-hdfs dfs -chmod g+w /user/thanhphat/datalake
+sudo systemctl start mysql.service: Start MySQL.
+sudo systemctl status mysql.service: Check status MySQL.
+udo systemctl stop mysql.service: Stop MySQL.
+sudo mysql -u root -p: Connect to MySQL.
+```
+
+4. Create directory:
+
+```
+hdfs dfs -mkdir -p /user/thanhphat/datalake/tblname
+hdfs dfs -chmod g+w /user/thanhphat/datalake/tblname
 
 hdfs dfs -mkdir -p /user/hive/warehouse
 hdfs dfs -chmod g+w /user/hive/warehouse
 ```
 
-4. Step run:
+5. Step run:
 
 ```
-spark-submit spark-ingest.py
-spark-submit spark-etl.py
-spark-submit spark-ml.py
+spark-submit --jars ./Driver/mysql-connector-j-8.1.0 Ingestion.py "ExecutionDate" "tblName"
+spark-submit Transformation.py "ExecutionDate"
 ```
 
-5. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
+6. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
 
 ## File Structure
 
-- `spark-ingest.py`: File for Ingestion Data.
-- `spark-etl.py`: File for Extract, Transform, Load to Data Warehouse.
-- `spark-ml.py`: File for Machine Learning to predict stock.
+- `Ingestion.py`: File for Ingestion Data.
+- `Transformation.py`: File for Transformation to Data Warehouse.
 
 ## Video demo
-- Ingest: https://youtu.be/cs7IKZtwrK8.
-- ETL: .
+- Link: .
 
 Feel free to explore and enhance the project as needed!
