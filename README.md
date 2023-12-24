@@ -53,6 +53,16 @@ spark-submit Transformation.py "ExecutionDate"
 
 6. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
 
+7. Go to http://localhost:8080 to interact with the Superset
+
+8. Run and connect Apache Hive
+
+``` bash
+./hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console --hiveconf hive.server2.enable.doAs=false
+
+beeline -u jdbc:hive2://127.0.0.1:10000
+```
+
 ## File Structure
 
 - `Ingestion.py`: File for Ingestion(Extract and Load) Data.
