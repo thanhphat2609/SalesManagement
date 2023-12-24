@@ -55,7 +55,7 @@ spark-submit Transformation.py "ExecutionDate"
 
 ## File Structure
 
-- `Ingestion.py`: File for Ingestion Data.
+- `Ingestion.py`: File for Ingestion(Extract and Load) Data.
 - `Transformation.py`: File for Transformation to Data Warehouse.
 
 ## Video demo
