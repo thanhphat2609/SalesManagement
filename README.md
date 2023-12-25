@@ -59,8 +59,9 @@ beeline -u jdbc:hive2://127.0.0.1:10000: Access the Apache Hive command-line.
 
 ## File Structure
 
-- `Ingestion.py`: File for Ingestion(Extract and Load) Data.
-- `Transformation.py`: File for Transformation to Data Warehouse.
+- `Ingestion.py`: File have function for Ingestion(Extract and Load) Data.
+- `Transformation.py`: File have function for Transformation to Data Warehouse.
+- `Pipeline.py`: File for run all function from Ingestion.py and Transformation.py.
 
 ## Video demo
 - Link: .
