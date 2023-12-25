@@ -12,7 +12,9 @@ This is a simple analysis project using technologies such as MySQL, HDFS, Apache
 ## Pipeline 
 
 
+## ERD 
 
+![ERD_SalesManagement](https://github.com/thanhphat2609/SalesManagement/assets/84914537/8ec11b8c-e2f3-48e7-84a0-6ec65c6b8585)
 
 ## Installation
 
