@@ -9,7 +9,7 @@ CREATE TABLE `salesmanagement`.`customer`(
 	address VARCHAR(50) NOT NULL,
 	phoneno VARCHAR(20) NOT NULL,
 	dateofbirth DATE,
-    sales DECIMAL(10, 2) NOT NULL, 
+    	sales DECIMAL(10, 2) NOT NULL, 
 	registrationdate DATE
 );
 
