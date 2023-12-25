@@ -39,28 +39,18 @@ sudo systemctl stop mysql.service: Stop MySQL.
 sudo mysql -u root -p: Access the MySQL command-line.
 ```
 
-4. Create directory:
-
-```
-hdfs dfs -mkdir -p /user/thanhphat/datalake/tblname
-hdfs dfs -chmod g+w /user/thanhphat/datalake/tblname
-
-hdfs dfs -mkdir -p /user/hive/warehouse
-hdfs dfs -chmod g+w /user/hive/warehouse
-```
-
-5. Step run:
+4. Step run:
 
 ```
 spark-submit --jars ./Driver/mysql-connector-j-8.1.0.jar Ingestion.py "ExecutionDate" "tblName"
 spark-submit Transformation.py "ExecutionDate"
 ```
 
-6. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
+5. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS.
 
-7. Go to http://localhost:8080 to interact with the Superset.
+6. Go to http://localhost:8080 to interact with the Superset.
 
-8. Run and connect Apache Hive.
+7. Run and connect Apache Hive.
 
 ``` bash
 ./hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console --hiveconf hive.server2.enable.doAs=false: Start the Apache Hive server.
