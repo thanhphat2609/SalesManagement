@@ -67,6 +67,6 @@ superset run -p 8080 --with-threads --reload --debugger
 - `Pipeline.py`: File for run all function from Ingestion.py and Transformation.py.
 
 ## Video demo
-- Link: .
+- Link: [SalesManagement_Demo](https://youtu.be/cXlauxTCV64).
 
 Feel free to explore and enhance the project as needed!
