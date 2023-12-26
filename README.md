@@ -5,8 +5,9 @@
 
 ![Architecture](https://github.com/thanhphatuit/SalesManagement/assets/84914537/c586914c-e210-4632-9ca8-566ef86dbfd5)
 
-## Pipeline 
+## Data Pipeline 
 
+![Data Pipeline_ELT](https://github.com/thanhphat2609/SalesManagement/assets/84914537/a86c7f5a-8b69-401a-9fa9-19d8f0c20830)
 
 ## ERD 
 
