@@ -1,9 +1,5 @@
 # Sales Management with Hadoop
 
-## Description
-
-This is a simple analysis project using technologies such as MySQL, HDFS, Apache Spark, Apache Hive, and Apache Superset for analyst SalesMangement database.
-
 
 ## Architecture 
 
