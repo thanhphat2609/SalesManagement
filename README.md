@@ -38,7 +38,7 @@ sudo systemctl stop mysql.service: Stop MySQL.
 sudo mysql -u root -p: Access the MySQL command-line.
 ```
 
-4. Step run:
+4. Run file:
 
 ```
 spark-submit --jars ./driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionDate"
