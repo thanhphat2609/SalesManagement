@@ -48,10 +48,16 @@ spark-submit --jars ./driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionD
 
 6. Run and connect Apache Hive.
 
-``` bash
+```
 ./hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console --hiveconf hive.server2.enable.doAs=false: Start the Apache Hive server.
 
 beeline -u jdbc:hive2://127.0.0.1:10000: Access the Apache Hive command-line.
+```
+
+7. Connect Superset
+
+```
+superset run -p 8080 --with-threads --reload --debugger
 ```
 
 ## File Structure
