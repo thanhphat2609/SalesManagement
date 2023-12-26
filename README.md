@@ -7,7 +7,7 @@
 
 ## Data Pipeline
 
-
+![DataPipeline_ELT](https://github.com/thanhphat2609/Stock_Prediction/assets/84914537/dd2be3ae-032e-48cf-a688-3f29596f985e)
 
 ## ERD 
 
