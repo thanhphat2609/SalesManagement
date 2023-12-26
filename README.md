@@ -46,7 +46,7 @@ spark-submit --jars ./driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionD
 
 5. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS, http://localhost:8080 to interact with the Superset.
 
-6. Run and connect Apache Hive.
+6. Run Apache Hive.
 
 ```
 ./hive --service hiveserver2 --hiveconf hive.server2.thrift.port=10000 --hiveconf hive.root.logger=INFO,console --hiveconf hive.server2.enable.doAs=false: Start the Apache Hive server.
@@ -54,7 +54,7 @@ spark-submit --jars ./driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionD
 beeline -u jdbc:hive2://127.0.0.1:10000: Access the Apache Hive command-line.
 ```
 
-7. Connect Superset
+7. Start Apache Superset.
 
 ```
 superset run -p 8080 --with-threads --reload --debugger
