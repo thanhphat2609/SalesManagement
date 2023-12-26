@@ -7,7 +7,7 @@
 
 ## Data Pipeline
 
-![DataPipeline_ELT](https://github.com/thanhphat2609/SalesManagement/assets/84914537/e24daf8d-c190-4a71-8a69-782e1de8595c)
+![DataPipeline_ELT](https://github.com/thanhphat2609/SalesManagement/assets/84914537/a4fb812f-6674-494f-8739-aae83c8a44c6)
 
 ## ERD 
 
