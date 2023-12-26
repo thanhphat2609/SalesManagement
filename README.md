@@ -18,7 +18,7 @@
 
 ```
 https://github.com/thanhphatuit/SalesManagement.git
-cd Source
+cd source
 ```
 
 2. Start Hadoop:
