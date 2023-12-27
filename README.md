@@ -13,7 +13,7 @@
 
 ![ERD_SalesManagement](https://github.com/thanhphat2609/SalesManagement/assets/84914537/8ec11b8c-e2f3-48e7-84a0-6ec65c6b8585)
 
-## Installation
+## Installation and step to run project
 
 1. Clone the repository:
 
