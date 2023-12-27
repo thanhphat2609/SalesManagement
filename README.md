@@ -41,7 +41,7 @@ sudo mysql -u root -p: Access the MySQL command-line.
 4. Run file:
 
 ```
-spark-submit --jars ./driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionDate"
+spark-submit --jars ../driver/mysql-connector-j-8.1.0.jar Pipeline.py "executionDate"
 ```
 
 5. Open your browser (Firefox) and go to http://localhost:9870 to interact with the HDFS, http://localhost:8080 to interact with the Superset.
