@@ -16,9 +16,6 @@ from Transformation import *
 # Create Spark Session	
 spark = SparkSession.builder.appName("Pipeline").config("spark.sql.warehouse.dir", "hdfs://localhost:9000/user/hive/warehouse").enableHiveSupport().getOrCreate()
 
-# Create a SparkContext
-sc = SparkContext.getOrCreate()
-
 # Receive argument
 executionDate = sys.argv[1].split("/")
 
