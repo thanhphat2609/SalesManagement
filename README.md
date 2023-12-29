@@ -1,4 +1,4 @@
-# Sales Management with Hadoop
+# Sales Management Analysis with Hadoop
 
 
 ## Architecture 
