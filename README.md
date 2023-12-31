@@ -1,4 +1,4 @@
-# Sales Management Analysis with Hadoop ecosystem
+# Sales Analysis with Hadoop ecosystem
 
 
 ## Architecture 
